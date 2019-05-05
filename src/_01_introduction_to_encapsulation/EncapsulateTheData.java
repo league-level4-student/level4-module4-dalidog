@@ -1,5 +1,12 @@
 package _01_introduction_to_encapsulation;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
+
+import org.junit.jupiter.api.Test;
+
+
+
 /*
  * Encapsulation is a way of protecting the data in a class from being
  * unintentionally altered from another class.
@@ -16,7 +23,8 @@ package _01_introduction_to_encapsulation;
  * */
 
 
-public class EncapsulateTheData {
+public class EncapsulateTheData{
+	
 	//1. Encapsulate the member variables.
 	//   Add restrictions to the setters according to the comment.
 	
@@ -70,11 +78,6 @@ public class EncapsulateTheData {
 		return this.memberObj;
 		
 	}
-	public void testitemsReceived(int itemsReceived) {
-		
-	}
 	
-	public static void main(String[] args) {
-		
-	}
+
 }
