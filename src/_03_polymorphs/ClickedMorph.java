@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JOptionPane;
 
-public class ClickedMorph extends Polymorph implements ActionListener{
+public class ClickedMorph extends Polymorph {
 	ClickedMorph(int x, int y) {
 		super(x, y);
 		setWidth(50);
@@ -21,11 +21,6 @@ public class ClickedMorph extends Polymorph implements ActionListener{
 	
 	
 }
+	
 
-	@Override
-	public void actionPerformed(ActionEvent e) {
-		// TODO Auto-generated method stub
-		if(e.getSource().equals(this)) {
-		JOptionPane.showMessageDialog(null, "Ow");
-	}}
 }
