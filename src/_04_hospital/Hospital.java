@@ -22,6 +22,16 @@ public class Hospital {
 		return arraydoc;
 		
 	}
+	public void assignPatientsToDoctors() throws DoctorFullException {
+		// TODO Auto-generated method stub
+		int x = 0;
+		for (int i = 0; i < arraypat.size(); i++) {
+			arraydoc.get(x).assignPatient(arraypat.get(i));
+		if(arraydoc.get(x).getPatients().size()==3) {
+			x=x+1;
+		}
+		}
+	}
 
 	
 
